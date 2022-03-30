@@ -13,9 +13,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg margin">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+            alt=""
+            width="70"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,35 +33,15 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link cor-header" href="#quemsomos">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link cor-header" href="#parceiros">Parceiros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link cor-header" href="#servicos">Serviços </a>
             </li>
           </ul>
           <form class="d-flex">
@@ -73,5 +58,87 @@
         </div>
       </div>
     </nav>
+    <section id="quemsomos">
+      <div class="container-fluid quem-somos text-center margin">
+        <h3 class="margin">Quem somos</h3>
+        <img src="img/logo-global-labs.webp" alt="" width="300px" />
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          veritatis tempora iusto a qui neque quidem earum molestias fuga
+          voluptates.
+        </h3>
+      </div>
+    </section>
+
+    <section id="parceiros">
+      <div class="container-fluid text-center margin parceiros">
+        <h3 class="margin">PARCEIROS</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+                alt=""
+                width="100"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+                alt=""
+                width="100"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+                alt=""
+                width="100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="container-fluid text-center margin servicos">
+        <h3 class="margin">SERVIÇOS</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur repudiandae earum corporis similique odio saepe!
+                Temporibus, fugit veritatis quibusdam vel dolore exercitationem
+                eligendi quaerat in? In asperiores facere quo explicabo.
+              </p>
+              <img
+                src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+                alt=""
+                width="100%"
+              />
+            </div>
+            <div class="col-lg-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestiae laudantium possimus maiores culpa officia, aliquid
+                odit ratione unde quidem aut ad delectus, laboriosam vitae autem
+                consequuntur tempore deserunt tempora explicabo.
+              </p>
+              <img
+                src="img/kisspng-logo-web-development-clip-art-site-vector-5add4dee2c70b6.9389055015244528461821.png"
+                alt=""
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+      <p>Desenvolvido por João Mateus Silva Lopes</p>
+    </footer>
   </body>
 </html>
